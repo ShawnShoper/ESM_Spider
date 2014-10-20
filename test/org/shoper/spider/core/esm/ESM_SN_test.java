@@ -27,18 +27,19 @@ public class ESM_SN_test {
 		 * string : ls) { System.out.println(string); }
 		 * System.out.println(ls.length);
 		 * 
-		 * esm_SN.process();
 		 */
-		String price = new OCR()
+		/*String price = new OCR()
 				.recognizeText(
 						new URL(
 								"http://price2.suning.cn/webapp/wcs/stores/prdprice/22953444_9017_10000_9-1.png"),
 						"png");
-		if (price != null && price.length() > 0) {
+		System.out.println(price);*/
+		/*if (price != null && price.length() > 0) {
 			BigDecimal bprice = new BigDecimal(price.replaceAll("[^0-9.]", "")
 					.trim());
 			System.out.println(bprice);
-		}
+		}*/
+		esm_SN.process();
 	}
 
 	@After

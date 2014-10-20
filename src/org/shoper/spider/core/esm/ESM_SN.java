@@ -23,7 +23,7 @@ public class ESM_SN extends AbstractESM {
 		String[] picUrls =  new String[]{};
 		String[] itemUrls = new String[]{};
 		String[] itemIDs = new String[]{};
-		String url = "http://list.suning.com/0-20006-0-0-0-9017.html";
+		String url = "http://list.suning.com/0-20006-0-0-0-9017.html#sourceUrl4Sa=http://shouji.suning.com/";
 		StringBuffer sb = new StringBuffer(new HtmlClient(url).getHtml());
 		
 		 FileOutputStream fileOutputStream = new FileOutputStream(new File("d:\\t.txt"));
@@ -50,7 +50,7 @@ public class ESM_SN extends AbstractESM {
 		{
 			// 获取产品标题,以及产品图片
 			Pattern pattern = Pattern
-					.compile("<img\\sclass=\"err-product\"\\ssrc\\d?=\"([\\w./_x:]*)\"\\salt=\"([\u4e00-\u9fa5\\s\\w-\uff08\uff09/\\\\_()]*)\".*(?!/>)");
+					.compile("<img\\sclass=\\\"err-product\\\"\\ssrc\\d?=\\\"([\\w./_x:]*)\\\"\\salt=\\\"([\u4e00-\u9fa5\\s\\w-\uff08-\uff09/\u3010-\u3011\\+=\\-\\_()<>{}\\[\\]:'\"\\?]*?)\\\".*(?!/>)");
 			Matcher matcher = pattern.matcher(sb);
 			List<String> titleList = new ArrayList<>(count);
 			List<String> picUrlList = new ArrayList<>(count);
@@ -76,6 +76,7 @@ public class ESM_SN extends AbstractESM {
 				LOGGER.info("Get product link:" + priceUrl);
 				String p = new OCR().recognizeText(new URL(priceUrl),
 						priceUrl.substring(priceUrl.lastIndexOf('.') + 1));
+				p = p.replaceAll("[\r\n\\s]", "");
 				priceList.add(p);
 				LOGGER.info("Get product price:" + p);
 				// 避免被封IP,增加访问间隔---1秒
@@ -103,5 +104,9 @@ public class ESM_SN extends AbstractESM {
 	public void init() {
 		// TODO Auto-generated method stub
 
+	}
+	public static void main(String[] args) {
+		String string = "sada\r\n    nasdsad";
+		System.out.println(string.replaceAll("[\r\n\\s]", ""));
 	}
 }
