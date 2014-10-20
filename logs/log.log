@@ -1568,3 +1568,693 @@
  item_picUrl:http://image4.suning.cn/b2c/catentries/000000000106913400_1_200x200.jpg
 
 [2014-10-21 00:37:38,911]-INFO  (ESM_SN.java:93)|解析完毕....
+[2014-10-21 00:42:38,263]-INFO  (ESM_SN.java:20)|解析开始....
+[2014-10-21 00:42:40,028]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/104436065.html
+[2014-10-21 00:42:40,029]-DEBUG (ESM_SN.java:44)|Get product id:104436065
+[2014-10-21 00:42:40,029]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123113185.html
+[2014-10-21 00:42:40,029]-DEBUG (ESM_SN.java:44)|Get product id:123113185
+[2014-10-21 00:42:40,029]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123407242.html
+[2014-10-21 00:42:40,029]-DEBUG (ESM_SN.java:44)|Get product id:123407242
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/108263078.html
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:44)|Get product id:108263078
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106040163.html
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:44)|Get product id:106040163
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123336687.html
+[2014-10-21 00:42:40,030]-DEBUG (ESM_SN.java:44)|Get product id:123336687
+[2014-10-21 00:42:40,031]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/121285145.html
+[2014-10-21 00:42:40,031]-DEBUG (ESM_SN.java:44)|Get product id:121285145
+[2014-10-21 00:42:40,031]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123153627.html
+[2014-10-21 00:42:40,033]-DEBUG (ESM_SN.java:44)|Get product id:123153627
+[2014-10-21 00:42:40,033]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/120052444.html
+[2014-10-21 00:42:40,033]-DEBUG (ESM_SN.java:44)|Get product id:120052444
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/105010786.html
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:44)|Get product id:105010786
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107441409.html
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:44)|Get product id:107441409
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/120100545.html
+[2014-10-21 00:42:40,034]-DEBUG (ESM_SN.java:44)|Get product id:120100545
+[2014-10-21 00:42:40,035]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123519431.html
+[2014-10-21 00:42:40,035]-DEBUG (ESM_SN.java:44)|Get product id:123519431
+[2014-10-21 00:42:40,035]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109865401.html
+[2014-10-21 00:42:40,035]-DEBUG (ESM_SN.java:44)|Get product id:109865401
+[2014-10-21 00:42:40,035]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/105458849.html
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:44)|Get product id:105458849
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123596248.html
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:44)|Get product id:123596248
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/108044842.html
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:44)|Get product id:108044842
+[2014-10-21 00:42:40,036]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/121160448.html
+[2014-10-21 00:42:40,037]-DEBUG (ESM_SN.java:44)|Get product id:121160448
+[2014-10-21 00:42:40,037]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109340905.html
+[2014-10-21 00:42:40,037]-DEBUG (ESM_SN.java:44)|Get product id:109340905
+[2014-10-21 00:42:40,037]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107164345.html
+[2014-10-21 00:42:40,037]-DEBUG (ESM_SN.java:44)|Get product id:107164345
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123477011.html
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:44)|Get product id:123477011
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/121696125.html
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:44)|Get product id:121696125
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106233338.html
+[2014-10-21 00:42:40,038]-DEBUG (ESM_SN.java:44)|Get product id:106233338
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106225435.html
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:44)|Get product id:106225435
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106455059.html
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:44)|Get product id:106455059
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/104075176.html
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:44)|Get product id:104075176
+[2014-10-21 00:42:40,039]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/120071832.html
+[2014-10-21 00:42:40,040]-DEBUG (ESM_SN.java:44)|Get product id:120071832
+[2014-10-21 00:42:40,040]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109040096.html
+[2014-10-21 00:42:40,040]-DEBUG (ESM_SN.java:44)|Get product id:109040096
+[2014-10-21 00:42:40,040]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109793816.html
+[2014-10-21 00:42:40,040]-DEBUG (ESM_SN.java:44)|Get product id:109793816
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/121468053.html
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:44)|Get product id:121468053
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107131046.html
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:44)|Get product id:107131046
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107862004.html
+[2014-10-21 00:42:40,041]-DEBUG (ESM_SN.java:44)|Get product id:107862004
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/120897056.html
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:44)|Get product id:120897056
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/121012138.html
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:44)|Get product id:121012138
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/104419690.html
+[2014-10-21 00:42:40,042]-DEBUG (ESM_SN.java:44)|Get product id:104419690
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/104322028.html
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:44)|Get product id:104322028
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107946522.html
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:44)|Get product id:107946522
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107991939.html
+[2014-10-21 00:42:40,043]-DEBUG (ESM_SN.java:44)|Get product id:107991939
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109336976.html
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:44)|Get product id:109336976
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106726181.html
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:44)|Get product id:106726181
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109335899.html
+[2014-10-21 00:42:40,044]-DEBUG (ESM_SN.java:44)|Get product id:109335899
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/122740600.html
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:44)|Get product id:122740600
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107399173.html
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:44)|Get product id:107399173
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/109853317.html
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:44)|Get product id:109853317
+[2014-10-21 00:42:40,045]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/107408544.html
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:44)|Get product id:107408544
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/123343549.html
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:44)|Get product id:123343549
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106913400.html
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:44)|Get product id:106913400
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:41)|Get product url:http://product.suning.com/106813012.html
+[2014-10-21 00:42:40,046]-DEBUG (ESM_SN.java:44)|Get product id:106813012
+[2014-10-21 00:42:40,051]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000104436065_1_200x200.jpg
+[2014-10-21 00:42:40,051]-DEBUG (ESM_SN.java:61)|Get product title:苹果手机 iPhone4S (8GB) (白)
+[2014-10-21 00:42:40,051]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000123113185_1_200x200.jpg
+[2014-10-21 00:42:40,051]-DEBUG (ESM_SN.java:61)|Get product title:酷派 大神F2（8675-HD） 4G手机（智尚白）TD-LTE/TD-SCDMA/GSM 双卡双待
+[2014-10-21 00:42:40,052]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000123407242_1_200x200.jpg
+[2014-10-21 00:42:40,052]-DEBUG (ESM_SN.java:61)|Get product title:小米手机4联通合约版(白色)
+[2014-10-21 00:42:40,052]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000108263078_1_200x200.jpg
+[2014-10-21 00:42:40,052]-DEBUG (ESM_SN.java:61)|Get product title:先锋手机K68w(白色)
+[2014-10-21 00:42:40,052]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000106040163_1_200x200.jpg
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:61)|Get product title:苹果手机 iPhone5S (16GB) (金) 开放版
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000123336687_1_200x200.jpg
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:61)|Get product title:红米note移动4G合约版(象牙白)
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000121285145_1_200x200.jpg
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:61)|Get product title:华为手机荣耀6联通4G（H60-L02）（16GB）（白）
+[2014-10-21 00:42:40,053]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000123153627_1_200x200.jpg
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:61)|Get product title:苹果手机 iPhone6 16G 深空灰
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000120052444_1_200x200.jpg
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 G7108V (白色)
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000105010786_1_200x200.jpg
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:61)|Get product title:红米手机1S联通版(金属灰)
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000107441409_1_200x200.jpg
+[2014-10-21 00:42:40,054]-DEBUG (ESM_SN.java:61)|Get product title:HTC手机D816T（轻盈白）
+[2014-10-21 00:42:40,055]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000120100545_1_200x200.jpg
+[2014-10-21 00:42:40,055]-DEBUG (ESM_SN.java:61)|Get product title:华为手机荣耀3C 1GB RAM（H30-L01)移动4G(白色）
+[2014-10-21 00:42:40,055]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000123519431_1_200x200.jpg
+[2014-10-21 00:42:40,055]-DEBUG (ESM_SN.java:61)|Get product title:HTC D820u 4G手机（镶蓝时尚白）双网双通 公开版
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000109865401_1_200x200.jpg
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:61)|Get product title:酷派手机大神F1（8297）（智尚白）
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000105458849_1_200x200.jpg
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 SM-G7106 (白色)
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000123596248_1_200x200.jpg
+[2014-10-21 00:42:40,056]-DEBUG (ESM_SN.java:61)|Get product title:华为手机Mate7 MT7-CL00（月光银）
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000108044842_1_200x200.jpg
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:61)|Get product title:苹果手机 iPhone4S (8GB)(白色) 电信版
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000121160448_1_200x200.jpg
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:61)|Get product title:锤子手机 SM701 Smartisan T1 32G版（黑色）
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000107164345_1_200x200.jpg
+[2014-10-21 00:42:40,057]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 G9008V (白)
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000123477011_1_200x200.jpg
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:61)|Get product title:华为手机荣耀3C畅玩版Hol-T00（4GB）（黑白色）
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000121696125_1_200x200.jpg
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:61)|Get product title:小青心索尼C3双卡4G-LTE联通版S55u（马卡龙绿）
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000106233338_1_200x200.jpg
+[2014-10-21 00:42:40,058]-DEBUG (ESM_SN.java:61)|Get product title:酷派手机 5951智尚白
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000106225435_1_200x200.jpg
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 G7109 (白色)
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000106455059_1_200x200.jpg
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:61)|Get product title:红米手机1S电信版金属灰
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000104075176_1_200x200.jpg
+[2014-10-21 00:42:40,059]-DEBUG (ESM_SN.java:61)|Get product title:HTC 手机 801e （魅夜红）
+[2014-10-21 00:42:40,060]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000120071832_1_200x200.jpg
+[2014-10-21 00:42:40,060]-DEBUG (ESM_SN.java:61)|Get product title:HTC One (E8) 时尚版4G LTE (M8St)定制版（雪精灵白）
+[2014-10-21 00:42:40,060]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000109793816_1_200x200.jpg
+[2014-10-21 00:42:40,060]-DEBUG (ESM_SN.java:61)|Get product title:小米手机红米1S（金属灰）移动合约版
+[2014-10-21 00:42:40,060]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000121468053_1_200x200.jpg
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:61)|Get product title:努比亚（nubia）小牛3 Z7 mini （NX507J） 4G手机（前黑后白）LTE/WCDMA/TD-SCDMA/EVDO 双卡双待
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000107862004_1_200x200.jpg
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:61)|Get product title:HTC One(M8t) 4G LTE (月光银)移动定制版
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000121012138_1_200x200.jpg
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:61)|Get product title:TCL手机么么哒 P728M（雪山白）
+[2014-10-21 00:42:40,061]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000104419690_1_200x200.jpg
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:61)|Get product title:索尼手机L39h(紫色)
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000104322028_1_200x200.jpg
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:61)|Get product title:TCL手机i310(暗夜黑)
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:59)|Get product image url:http://image2.suning.cn/b2c/catentries/000000000107946522_1_200x200.jpg
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 G3818 (金属黑)
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:59)|Get product image url:http://image5.suning.cn/b2c/catentries/000000000107991939_1_200x200.jpg
+[2014-10-21 00:42:40,062]-DEBUG (ESM_SN.java:61)|Get product title:索尼手机Z2  L50T（白）
+[2014-10-21 00:42:40,063]-DEBUG (ESM_SN.java:59)|Get product image url:http://image3.suning.cn/b2c/catentries/000000000106726181_1_200x200.jpg
+[2014-10-21 00:42:40,063]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 GT--I9152P (白色)
+[2014-10-21 00:42:40,063]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000109335899_1_200x200.jpg
+[2014-10-21 00:42:40,063]-DEBUG (ESM_SN.java:61)|Get product title:诺基亚手机225（黑）
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000109853317_1_200x200.jpg
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:61)|Get product title:诺基亚手机XL（黑）
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:59)|Get product image url:http://image1.suning.cn/b2c/catentries/000000000107408544_1_200x200.jpg
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:61)|Get product title:诺基亚手机107（黑色）
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000106913400_1_200x200.jpg
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:61)|Get product title:三星手机 I939i (白色)
+[2014-10-21 00:42:40,064]-DEBUG (ESM_SN.java:59)|Get product image url:http://image4.suning.cn/b2c/catentries/000000000106813012_1_200x200.jpg
+[2014-10-21 00:42:40,065]-DEBUG (ESM_SN.java:61)|Get product title:索尼手机XM50h(白色)
+[2014-10-21 00:42:40,069]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/17014261_9017_10000_9-1.png
+[2014-10-21 00:42:40,284]-INFO  (ESM_SN.java:80)|Get product price:2099 .00
+
+
+[2014-10-21 00:42:41,285]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22648186_9017_10000_9-1.png
+[2014-10-21 00:42:41,370]-INFO  (ESM_SN.java:80)|Get product price:1047 .00
+
+
+[2014-10-21 00:42:42,371]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22899676_9017_10000_9-1.png
+[2014-10-21 00:42:42,494]-INFO  (ESM_SN.java:80)|Get product price:2099 .00
+
+
+[2014-10-21 00:42:43,496]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19984114_9017_10000_9-1.png
+[2014-10-21 00:42:43,608]-INFO  (ESM_SN.java:80)|Get product price:1390 .00
+
+
+[2014-10-21 00:42:44,608]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18591349_9017_10000_9-1.png
+[2014-10-21 00:42:44,725]-INFO  (ESM_SN.java:80)|Get product price:4398 .00
+
+
+[2014-10-21 00:42:45,725]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22828883_9017_10000_9-1.png
+[2014-10-21 00:43:04,808]-INFO  (ESM_SN.java:80)|Get product price:1028.00
+
+
+[2014-10-21 00:43:05,808]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21627401_9017_10000_9-1.png
+[2014-10-21 00:43:05,934]-INFO  (ESM_SN.java:80)|Get product price:1999 .00
+
+
+[2014-10-21 00:43:06,934]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22674980_9017_10000_9-1.png
+[2014-10-21 00:43:07,078]-INFO  (ESM_SN.java:80)|Get product price:5288.00
+
+
+[2014-10-21 00:43:08,078]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20806262_9017_10000_9-1.png
+[2014-10-21 00:43:08,181]-INFO  (ESM_SN.java:80)|Get product price:1798 .00
+
+
+[2014-10-21 00:43:09,181]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/17791993_9017_10000_9-1.png
+[2014-10-21 00:43:09,294]-INFO  (ESM_SN.java:80)|Get product price:799 .00
+
+
+[2014-10-21 00:43:10,294]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19472786_9017_10000_9-1.png
+[2014-10-21 00:43:10,411]-INFO  (ESM_SN.java:80)|Get product price:1568 .00
+
+
+[2014-10-21 00:43:11,411]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20848701_9017_10000_9-1.png
+[2014-10-21 00:43:11,525]-INFO  (ESM_SN.java:80)|Get product price:878 .00
+
+
+[2014-10-21 00:43:12,525]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22996122_9017_10000_9-1.png
+[2014-10-21 00:43:12,635]-INFO  (ESM_SN.java:80)|Get product price:1999 .00
+
+
+[2014-10-21 00:43:13,635]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20737699_9017_10000_9-1.png
+[2014-10-21 00:43:13,771]-INFO  (ESM_SN.java:80)|Get product price:878 .00
+
+
+[2014-10-21 00:43:14,771]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18190446_9017_10000_9-1.png
+[2014-10-21 00:43:14,878]-INFO  (ESM_SN.java:80)|Get product price:1528.00
+
+
+[2014-10-21 00:43:15,878]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/23064391_9017_10000_9-1.png
+[2014-10-21 00:43:15,986]-INFO  (ESM_SN.java:80)|Get product price:2998 .00
+
+
+[2014-10-21 00:43:16,986]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19880662_9017_10000_9-1.png
+[2014-10-21 00:43:17,102]-INFO  (ESM_SN.java:80)|Get product price:2178.00
+
+
+[2014-10-21 00:43:18,104]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21530103_9017_10000_9-1.png
+[2014-10-21 00:43:18,223]-INFO  (ESM_SN.java:80)|Get product price:3150.00
+
+
+[2014-10-21 00:43:19,223]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20544982_9017_10000_9-1.png
+[2014-10-21 00:43:19,316]-INFO  (ESM_SN.java:80)|Get product price:995 .00
+
+
+[2014-10-21 00:43:20,316]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19264709_9017_10000_9-1.png
+[2014-10-21 00:43:20,422]-INFO  (ESM_SN.java:80)|Get product price:3599 .00
+
+
+[2014-10-21 00:43:21,423]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22953444_9017_10000_9-1.png
+[2014-10-21 00:43:21,531]-INFO  (ESM_SN.java:80)|Get product price:see .00
+
+
+[2014-10-21 00:43:22,532]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21946461_9017_10000_9-1.png
+[2014-10-21 00:43:22,702]-INFO  (ESM_SN.java:80)|Get product price:1599 .00
+
+
+[2014-10-21 00:43:23,702]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/18769200_9017_10000_9-1.png
+[2014-10-21 00:43:26,368]-INFO  (ESM_SN.java:80)|Get product price:688 .00
+
+
+[2014-10-21 00:43:27,368]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18762793_9017_10000_9-1.png
+[2014-10-21 00:43:27,485]-INFO  (ESM_SN.java:80)|Get product price:1688 .00
+
+
+[2014-10-21 00:43:28,485]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18873858_9017_10000_9-1.png
+[2014-10-21 00:43:28,600]-INFO  (ESM_SN.java:80)|Get product price:829.00
+
+
+[2014-10-21 00:43:29,600]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/15007006_9017_10000_9-1.png
+[2014-10-21 00:43:30,720]-INFO  (ESM_SN.java:80)|Get product price:1799 .00
+
+
+[2014-10-21 00:43:31,720]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20827546_9017_10000_9-1.png
+[2014-10-21 00:43:31,854]-INFO  (ESM_SN.java:80)|Get product price:2588 .00
+
+
+[2014-10-21 00:43:32,854]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20400168_9017_10000_9-1.png
+[2014-10-21 00:43:32,990]-INFO  (ESM_SN.java:80)|Get product price:2999 .00
+
+
+[2014-10-21 00:43:33,990]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20681898_9017_10000_9-1.png
+[2014-10-21 00:43:34,129]-INFO  (ESM_SN.java:80)|Get product price:808 .00
+
+
+[2014-10-21 00:43:35,129]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21758852_9017_10000_9-1.png
+[2014-10-21 00:43:35,237]-INFO  (ESM_SN.java:80)|Get product price:1699 .00
+
+
+[2014-10-21 00:43:36,239]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19255302_9017_10000_9-1.png
+[2014-10-21 00:43:36,366]-INFO  (ESM_SN.java:80)|Get product price:2199.00
+
+
+[2014-10-21 00:43:37,366]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19737713_9017_10000_9-1.png
+[2014-10-21 00:43:37,517]-INFO  (ESM_SN.java:80)|Get product price:3499 .00
+
+
+[2014-10-21 00:43:38,518]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21268130_9017_10000_9-1.png
+[2014-10-21 00:43:38,657]-INFO  (ESM_SN.java:80)|Get product price:988 .00
+
+
+[2014-10-21 00:43:39,657]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/21369271_9017_10000_9-1.png
+[2014-10-21 00:43:39,779]-INFO  (ESM_SN.java:80)|Get product price:1099 .00
+
+
+[2014-10-21 00:43:40,779]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/17004396_9017_10000_9-1.png
+[2014-10-21 00:43:40,904]-INFO  (ESM_SN.java:80)|Get product price:2399 .00
+
+
+[2014-10-21 00:43:41,904]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/16837721_9017_10000_9-1.png
+[2014-10-21 00:43:42,048]-INFO  (ESM_SN.java:80)|Get product price:229.00
+
+
+[2014-10-21 00:43:43,048]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19790679_9017_10000_9-1.png
+[2014-10-21 00:43:43,168]-INFO  (ESM_SN.java:80)|Get product price:878 .00
+
+
+[2014-10-21 00:43:44,168]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19830761_9017_10000_9-1.png
+[2014-10-21 00:43:44,290]-INFO  (ESM_SN.java:80)|Get product price:2958 .00
+
+
+[2014-10-21 00:43:45,290]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20545352_9017_10000_9-1.png
+[2014-10-21 00:43:45,436]-INFO  (ESM_SN.java:80)|Get product price:951.00
+
+
+[2014-10-21 00:43:46,436]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/18972602_9017_10000_9-1.png
+[2014-10-21 00:43:46,564]-INFO  (ESM_SN.java:80)|Get product price:1697 .00
+
+
+[2014-10-21 00:43:47,564]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20425059_9017_10000_9-1.png
+[2014-10-21 00:43:47,721]-INFO  (ESM_SN.java:80)|Get product price:439 .00
+
+
+[2014-10-21 00:43:48,721]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22357076_9017_10000_9-1.png
+[2014-10-21 00:43:48,850]-INFO  (ESM_SN.java:80)|Get product price:2488 .00
+
+
+[2014-10-21 00:43:49,851]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19440351_9017_10000_9-1.png
+[2014-10-21 00:43:49,962]-INFO  (ESM_SN.java:80)|Get product price:653 .00
+
+
+[2014-10-21 00:43:50,962]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20726263_9017_10000_9-1.png
+[2014-10-21 00:43:51,089]-INFO  (ESM_SN.java:80)|Get product price:899 .00
+
+
+[2014-10-21 00:43:52,089]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19449565_9017_10000_9-1.png
+[2014-10-21 00:43:52,221]-INFO  (ESM_SN.java:80)|Get product price:167 .00
+
+
+[2014-10-21 00:43:53,223]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22843590_9017_10000_9-1.png
+[2014-10-21 00:43:53,407]-INFO  (ESM_SN.java:80)|Get product price:999 .00
+
+
+[2014-10-21 00:43:54,408]-INFO  (ESM_SN.java:76)|Get product link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19068982_9017_10000_9-1.png
+[2014-10-21 00:43:54,518]-INFO  (ESM_SN.java:80)|Get product price:1388 .00
+
+
+[2014-10-21 00:43:55,518]-INFO  (ESM_SN.java:76)|Get product link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19007689_9017_10000_9-1.png
+[2014-10-21 00:43:55,690]-INFO  (ESM_SN.java:80)|Get product price:1488 .00
+
+
+[2014-10-21 00:43:56,692]-DEBUG (ESM_SN.java:90)|item_ID:104436065
+ item_link:http://product.suning.com/104436065.html
+ item_price:2099 .00
+
+
+ item_title:苹果手机 iPhone4S (8GB) (白)
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000104436065_1_200x200.jpg
+
+[2014-10-21 00:43:56,693]-DEBUG (ESM_SN.java:90)|item_ID:123113185
+ item_link:http://product.suning.com/123113185.html
+ item_price:1047 .00
+
+
+ item_title:酷派 大神F2（8675-HD） 4G手机（智尚白）TD-LTE/TD-SCDMA/GSM 双卡双待
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000123113185_1_200x200.jpg
+
+[2014-10-21 00:43:56,694]-DEBUG (ESM_SN.java:90)|item_ID:123407242
+ item_link:http://product.suning.com/123407242.html
+ item_price:2099 .00
+
+
+ item_title:小米手机4联通合约版(白色)
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000123407242_1_200x200.jpg
+
+[2014-10-21 00:43:56,694]-DEBUG (ESM_SN.java:90)|item_ID:108263078
+ item_link:http://product.suning.com/108263078.html
+ item_price:1390 .00
+
+
+ item_title:先锋手机K68w(白色)
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000108263078_1_200x200.jpg
+
+[2014-10-21 00:43:56,695]-DEBUG (ESM_SN.java:90)|item_ID:106040163
+ item_link:http://product.suning.com/106040163.html
+ item_price:4398 .00
+
+
+ item_title:苹果手机 iPhone5S (16GB) (金) 开放版
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000106040163_1_200x200.jpg
+
+[2014-10-21 00:43:56,695]-DEBUG (ESM_SN.java:90)|item_ID:123336687
+ item_link:http://product.suning.com/123336687.html
+ item_price:1028.00
+
+
+ item_title:红米note移动4G合约版(象牙白)
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000123336687_1_200x200.jpg
+
+[2014-10-21 00:43:56,696]-DEBUG (ESM_SN.java:90)|item_ID:121285145
+ item_link:http://product.suning.com/121285145.html
+ item_price:1999 .00
+
+
+ item_title:华为手机荣耀6联通4G（H60-L02）（16GB）（白）
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000121285145_1_200x200.jpg
+
+[2014-10-21 00:43:56,696]-DEBUG (ESM_SN.java:90)|item_ID:123153627
+ item_link:http://product.suning.com/123153627.html
+ item_price:5288.00
+
+
+ item_title:苹果手机 iPhone6 16G 深空灰
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000123153627_1_200x200.jpg
+
+[2014-10-21 00:43:56,697]-DEBUG (ESM_SN.java:90)|item_ID:120052444
+ item_link:http://product.suning.com/120052444.html
+ item_price:1798 .00
+
+
+ item_title:三星手机 G7108V (白色)
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000120052444_1_200x200.jpg
+
+[2014-10-21 00:43:56,697]-DEBUG (ESM_SN.java:90)|item_ID:105010786
+ item_link:http://product.suning.com/105010786.html
+ item_price:799 .00
+
+
+ item_title:红米手机1S联通版(金属灰)
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000105010786_1_200x200.jpg
+
+[2014-10-21 00:43:56,698]-DEBUG (ESM_SN.java:90)|item_ID:107441409
+ item_link:http://product.suning.com/107441409.html
+ item_price:1568 .00
+
+
+ item_title:HTC手机D816T（轻盈白）
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000107441409_1_200x200.jpg
+
+[2014-10-21 00:43:56,698]-DEBUG (ESM_SN.java:90)|item_ID:120100545
+ item_link:http://product.suning.com/120100545.html
+ item_price:878 .00
+
+
+ item_title:华为手机荣耀3C 1GB RAM（H30-L01)移动4G(白色）
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000120100545_1_200x200.jpg
+
+[2014-10-21 00:43:56,698]-DEBUG (ESM_SN.java:90)|item_ID:123519431
+ item_link:http://product.suning.com/123519431.html
+ item_price:1999 .00
+
+
+ item_title:HTC D820u 4G手机（镶蓝时尚白）双网双通 公开版
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000123519431_1_200x200.jpg
+
+[2014-10-21 00:43:56,699]-DEBUG (ESM_SN.java:90)|item_ID:109865401
+ item_link:http://product.suning.com/109865401.html
+ item_price:878 .00
+
+
+ item_title:酷派手机大神F1（8297）（智尚白）
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000109865401_1_200x200.jpg
+
+[2014-10-21 00:43:56,699]-DEBUG (ESM_SN.java:90)|item_ID:105458849
+ item_link:http://product.suning.com/105458849.html
+ item_price:1528.00
+
+
+ item_title:三星手机 SM-G7106 (白色)
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000105458849_1_200x200.jpg
+
+[2014-10-21 00:43:56,700]-DEBUG (ESM_SN.java:90)|item_ID:123596248
+ item_link:http://product.suning.com/123596248.html
+ item_price:2998 .00
+
+
+ item_title:华为手机Mate7 MT7-CL00（月光银）
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000123596248_1_200x200.jpg
+
+[2014-10-21 00:43:56,700]-DEBUG (ESM_SN.java:90)|item_ID:108044842
+ item_link:http://product.suning.com/108044842.html
+ item_price:2178.00
+
+
+ item_title:苹果手机 iPhone4S (8GB)(白色) 电信版
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000108044842_1_200x200.jpg
+
+[2014-10-21 00:43:56,701]-DEBUG (ESM_SN.java:90)|item_ID:121160448
+ item_link:http://product.suning.com/121160448.html
+ item_price:3150.00
+
+
+ item_title:锤子手机 SM701 Smartisan T1 32G版（黑色）
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000121160448_1_200x200.jpg
+
+[2014-10-21 00:43:56,701]-DEBUG (ESM_SN.java:90)|item_ID:109340905
+ item_link:http://product.suning.com/109340905.html
+ item_price:995 .00
+
+
+ item_title:三星手机 G9008V (白)
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000107164345_1_200x200.jpg
+
+[2014-10-21 00:43:56,702]-DEBUG (ESM_SN.java:90)|item_ID:107164345
+ item_link:http://product.suning.com/107164345.html
+ item_price:3599 .00
+
+
+ item_title:华为手机荣耀3C畅玩版Hol-T00（4GB）（黑白色）
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000123477011_1_200x200.jpg
+
+[2014-10-21 00:43:56,702]-DEBUG (ESM_SN.java:90)|item_ID:123477011
+ item_link:http://product.suning.com/123477011.html
+ item_price:see .00
+
+
+ item_title:小青心索尼C3双卡4G-LTE联通版S55u（马卡龙绿）
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000121696125_1_200x200.jpg
+
+[2014-10-21 00:43:56,702]-DEBUG (ESM_SN.java:90)|item_ID:121696125
+ item_link:http://product.suning.com/121696125.html
+ item_price:1599 .00
+
+
+ item_title:酷派手机 5951智尚白
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000106233338_1_200x200.jpg
+
+[2014-10-21 00:43:56,703]-DEBUG (ESM_SN.java:90)|item_ID:106233338
+ item_link:http://product.suning.com/106233338.html
+ item_price:688 .00
+
+
+ item_title:三星手机 G7109 (白色)
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000106225435_1_200x200.jpg
+
+[2014-10-21 00:43:56,703]-DEBUG (ESM_SN.java:90)|item_ID:106225435
+ item_link:http://product.suning.com/106225435.html
+ item_price:1688 .00
+
+
+ item_title:红米手机1S电信版金属灰
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000106455059_1_200x200.jpg
+
+[2014-10-21 00:43:56,704]-DEBUG (ESM_SN.java:90)|item_ID:106455059
+ item_link:http://product.suning.com/106455059.html
+ item_price:829.00
+
+
+ item_title:HTC 手机 801e （魅夜红）
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000104075176_1_200x200.jpg
+
+[2014-10-21 00:43:56,704]-DEBUG (ESM_SN.java:90)|item_ID:104075176
+ item_link:http://product.suning.com/104075176.html
+ item_price:1799 .00
+
+
+ item_title:HTC One (E8) 时尚版4G LTE (M8St)定制版（雪精灵白）
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000120071832_1_200x200.jpg
+
+[2014-10-21 00:43:56,705]-DEBUG (ESM_SN.java:90)|item_ID:120071832
+ item_link:http://product.suning.com/120071832.html
+ item_price:2588 .00
+
+
+ item_title:小米手机红米1S（金属灰）移动合约版
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000109793816_1_200x200.jpg
+
+[2014-10-21 00:43:56,705]-DEBUG (ESM_SN.java:90)|item_ID:109040096
+ item_link:http://product.suning.com/109040096.html
+ item_price:2999 .00
+
+
+ item_title:努比亚（nubia）小牛3 Z7 mini （NX507J） 4G手机（前黑后白）LTE/WCDMA/TD-SCDMA/EVDO 双卡双待
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000121468053_1_200x200.jpg
+
+[2014-10-21 00:43:56,706]-DEBUG (ESM_SN.java:90)|item_ID:109793816
+ item_link:http://product.suning.com/109793816.html
+ item_price:808 .00
+
+
+ item_title:HTC One(M8t) 4G LTE (月光银)移动定制版
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000107862004_1_200x200.jpg
+
+[2014-10-21 00:43:56,706]-DEBUG (ESM_SN.java:90)|item_ID:121468053
+ item_link:http://product.suning.com/121468053.html
+ item_price:1699 .00
+
+
+ item_title:TCL手机么么哒 P728M（雪山白）
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000121012138_1_200x200.jpg
+
+[2014-10-21 00:43:56,707]-DEBUG (ESM_SN.java:90)|item_ID:107131046
+ item_link:http://product.suning.com/107131046.html
+ item_price:2199.00
+
+
+ item_title:索尼手机L39h(紫色)
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000104419690_1_200x200.jpg
+
+[2014-10-21 00:43:56,707]-DEBUG (ESM_SN.java:90)|item_ID:107862004
+ item_link:http://product.suning.com/107862004.html
+ item_price:3499 .00
+
+
+ item_title:TCL手机i310(暗夜黑)
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000104322028_1_200x200.jpg
+
+[2014-10-21 00:43:56,707]-DEBUG (ESM_SN.java:90)|item_ID:120897056
+ item_link:http://product.suning.com/120897056.html
+ item_price:988 .00
+
+
+ item_title:三星手机 G3818 (金属黑)
+ item_picUrl:http://image2.suning.cn/b2c/catentries/000000000107946522_1_200x200.jpg
+
+[2014-10-21 00:43:56,708]-DEBUG (ESM_SN.java:90)|item_ID:121012138
+ item_link:http://product.suning.com/121012138.html
+ item_price:1099 .00
+
+
+ item_title:索尼手机Z2  L50T（白）
+ item_picUrl:http://image5.suning.cn/b2c/catentries/000000000107991939_1_200x200.jpg
+
+[2014-10-21 00:43:56,708]-DEBUG (ESM_SN.java:90)|item_ID:104419690
+ item_link:http://product.suning.com/104419690.html
+ item_price:2399 .00
+
+
+ item_title:三星手机 GT--I9152P (白色)
+ item_picUrl:http://image3.suning.cn/b2c/catentries/000000000106726181_1_200x200.jpg
+
+[2014-10-21 00:43:56,709]-DEBUG (ESM_SN.java:90)|item_ID:104322028
+ item_link:http://product.suning.com/104322028.html
+ item_price:229.00
+
+
+ item_title:诺基亚手机225（黑）
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000109335899_1_200x200.jpg
+
+[2014-10-21 00:43:56,710]-DEBUG (ESM_SN.java:90)|item_ID:107946522
+ item_link:http://product.suning.com/107946522.html
+ item_price:878 .00
+
+
+ item_title:诺基亚手机XL（黑）
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000109853317_1_200x200.jpg
+
+[2014-10-21 00:43:56,710]-DEBUG (ESM_SN.java:90)|item_ID:107991939
+ item_link:http://product.suning.com/107991939.html
+ item_price:2958 .00
+
+
+ item_title:诺基亚手机107（黑色）
+ item_picUrl:http://image1.suning.cn/b2c/catentries/000000000107408544_1_200x200.jpg
+
+[2014-10-21 00:43:56,711]-DEBUG (ESM_SN.java:90)|item_ID:109336976
+ item_link:http://product.suning.com/109336976.html
+ item_price:951.00
+
+
+ item_title:三星手机 I939i (白色)
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000106913400_1_200x200.jpg
+
+[2014-10-21 00:43:56,711]-DEBUG (ESM_SN.java:90)|item_ID:106726181
+ item_link:http://product.suning.com/106726181.html
+ item_price:1697 .00
+
+
+ item_title:索尼手机XM50h(白色)
+ item_picUrl:http://image4.suning.cn/b2c/catentries/000000000106813012_1_200x200.jpg
+
+[2014-10-21 00:43:56,712]-INFO  (ESM_SN.java:93)|解析完毕....

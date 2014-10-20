@@ -86,7 +86,7 @@ public class ESM_SN extends AbstractESM {
 		for (int i = 0; i < picUrls.length; i++) {
 			String result = "item_ID:"+itemIDs[i]+"\n item_link:" + itemUrls[i] + "\n item_price:"+ prices[i] + "\n item_title:" + titles[i]+ "\n item_picUrl:" + picUrls[i]+"\n";
 			fileOutputStream.write(result.getBytes());
-			fileOutputStream.write(("-------------------------------"+ ++i +" item-----------------------").getBytes());
+			fileOutputStream.write(("-------------------------------"+ (i+1) +" item-----------------------").getBytes());
 			LOGGER.debug(result);
 		}
 		fileOutputStream.flush();fileOutputStream.close();
