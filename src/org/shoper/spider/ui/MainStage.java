@@ -1,9 +1,11 @@
 package org.shoper.spider.ui;
 
-import org.apache.log4j.Logger;
+import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+
+import org.apache.log4j.Logger;
 
 public class MainStage extends Application {
 	private static Logger logger = Logger.getLogger(MainStage.class);
@@ -12,7 +14,7 @@ public class MainStage extends Application {
 	public void start(Stage stage) throws Exception {
 		stage.show();
 	}
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) throws IOException, InterruptedException {
 	}
 }

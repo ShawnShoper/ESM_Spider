@@ -1,0 +1,213 @@
+[2014-10-20 09:36:17,988]-DEBUG (MainStage.java:15)|hello
+[2014-10-20 09:56:42,867]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 09:57:34,242]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 09:58:58,980]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 09:59:18,100]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 09:59:30,297]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 10:00:06,176]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 10:00:26,914]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 10:01:03,433]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 10:01:18,451]-DEBUG (MainStage.java:19)|hello
+[2014-10-20 10:29:46,623]-INFO  (SpiderManager.java:26)|计算器服务已启动，端口是8888
+[2014-10-20 10:36:31,494]-INFO  (SpiderManager.java:30)|计算器服务已启动，端口是8888
+[2014-10-20 10:36:50,961]-INFO  (SpiderManager.java:30)|计算器服务已启动，端口是8888
+[2014-10-20 11:12:46,025]-INFO  (SpiderServices.java:19)|server starting......
+[2014-10-20 11:12:46,103]-INFO  (SpiderServices.java:25)|server started on the port:8888
+[2014-10-20 11:14:45,142]-INFO  (SpiderServices.java:19)|server starting......
+[2014-10-20 11:14:45,217]-INFO  (SpiderServices.java:25)|server started on the port:8888
+[2014-10-20 11:45:03,967]-INFO  (SpiderServices.java:30)|server starting......
+[2014-10-20 11:45:04,054]-INFO  (SpiderServices.java:46)|server started on the port:8888
+[2014-10-20 23:22:10,953]-INFO  (ESM_SN.java:17)|解析开始....
+[2014-10-20 23:28:59,743]-INFO  (ESM_SN.java:17)|解析开始....
+[2014-10-20 23:29:00,100]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/17014261_9017_10000_9-1.png
+[2014-10-20 23:29:00,576]-INFO  (ESM_SN.java:39)|price:2198.00
+
+
+[2014-10-20 23:29:01,577]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22648186_9017_10000_9-1.png
+[2014-10-20 23:29:01,682]-INFO  (ESM_SN.java:39)|price:1047 .00
+
+
+[2014-10-20 23:29:02,682]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22899676_9017_10000_9-1.png
+[2014-10-20 23:29:02,940]-INFO  (ESM_SN.java:39)|price:2099 .00
+
+
+[2014-10-20 23:29:03,941]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19984114_9017_10000_9-1.png
+[2014-10-20 23:29:04,050]-INFO  (ESM_SN.java:39)|price:1390 .00
+
+
+[2014-10-20 23:29:05,050]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18591349_9017_10000_9-1.png
+[2014-10-20 23:29:05,160]-INFO  (ESM_SN.java:39)|price:4398 .00
+
+
+[2014-10-20 23:29:06,160]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22828883_9017_10000_9-1.png
+[2014-10-20 23:29:06,265]-INFO  (ESM_SN.java:39)|price:1028.00
+
+
+[2014-10-20 23:29:07,265]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21627401_9017_10000_9-1.png
+[2014-10-20 23:29:07,362]-INFO  (ESM_SN.java:39)|price:1999 .00
+
+
+[2014-10-20 23:29:08,363]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22674980_9017_10000_9-1.png
+[2014-10-20 23:29:08,461]-INFO  (ESM_SN.java:39)|price:5288.00
+
+
+[2014-10-20 23:29:09,461]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20806262_9017_10000_9-1.png
+[2014-10-20 23:29:09,858]-INFO  (ESM_SN.java:39)|price:1798 .00
+
+
+[2014-10-20 23:29:10,858]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/17791993_9017_10000_9-1.png
+[2014-10-20 23:29:10,956]-INFO  (ESM_SN.java:39)|price:799 .00
+
+
+[2014-10-20 23:29:11,956]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19472786_9017_10000_9-1.png
+[2014-10-20 23:29:12,324]-INFO  (ESM_SN.java:39)|price:1568 .00
+
+
+[2014-10-20 23:29:13,324]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20848701_9017_10000_9-1.png
+[2014-10-20 23:29:13,460]-INFO  (ESM_SN.java:39)|price:878 .00
+
+
+[2014-10-20 23:29:14,460]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22996122_9017_10000_9-1.png
+[2014-10-20 23:29:14,558]-INFO  (ESM_SN.java:39)|price:1999 .00
+
+
+[2014-10-20 23:29:15,558]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20737699_9017_10000_9-1.png
+[2014-10-20 23:29:15,832]-INFO  (ESM_SN.java:39)|price:878 .00
+
+
+[2014-10-20 23:29:16,832]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18190446_9017_10000_9-1.png
+[2014-10-20 23:29:16,942]-INFO  (ESM_SN.java:39)|price:1528.00
+
+
+[2014-10-20 23:29:17,943]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/23064391_9017_10000_9-1.png
+[2014-10-20 23:29:18,069]-INFO  (ESM_SN.java:39)|price:2998 .00
+
+
+[2014-10-20 23:29:19,069]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19880662_9017_10000_9-1.png
+[2014-10-20 23:29:19,197]-INFO  (ESM_SN.java:39)|price:2178.00
+
+
+[2014-10-20 23:29:20,197]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21530103_9017_10000_9-1.png
+[2014-10-20 23:29:20,396]-INFO  (ESM_SN.java:39)|price:3150.00
+
+
+[2014-10-20 23:29:21,396]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20544982_9017_10000_9-1.png
+[2014-10-20 23:29:21,643]-INFO  (ESM_SN.java:39)|price:995 .00
+
+
+[2014-10-20 23:29:22,644]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19264709_9017_10000_9-1.png
+[2014-10-20 23:29:22,756]-INFO  (ESM_SN.java:39)|price:3599 .00
+
+
+[2014-10-20 23:29:23,756]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22953444_9017_10000_9-1.png
+[2014-10-20 23:29:23,874]-INFO  (ESM_SN.java:39)|price:see .00
+
+
+[2014-10-20 23:29:24,875]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21946461_9017_10000_9-1.png
+[2014-10-20 23:29:24,992]-INFO  (ESM_SN.java:39)|price:1599 .00
+
+
+[2014-10-20 23:29:25,992]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/18769200_9017_10000_9-1.png
+[2014-10-20 23:29:26,191]-INFO  (ESM_SN.java:39)|price:688 .00
+
+
+[2014-10-20 23:29:27,191]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18762793_9017_10000_9-1.png
+[2014-10-20 23:29:27,447]-INFO  (ESM_SN.java:39)|price:1688 .00
+
+
+[2014-10-20 23:29:28,447]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/18873858_9017_10000_9-1.png
+[2014-10-20 23:29:28,551]-INFO  (ESM_SN.java:39)|price:829.00
+
+
+[2014-10-20 23:29:29,551]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/15007006_9017_10000_9-1.png
+[2014-10-20 23:29:29,789]-INFO  (ESM_SN.java:39)|price:1799 .00
+
+
+[2014-10-20 23:29:30,789]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20827546_9017_10000_9-1.png
+[2014-10-20 23:29:30,920]-INFO  (ESM_SN.java:39)|price:2588 .00
+
+
+[2014-10-20 23:29:31,920]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20400168_9017_10000_9-1.png
+[2014-10-20 23:29:32,019]-INFO  (ESM_SN.java:39)|price:2999 .00
+
+
+[2014-10-20 23:29:33,019]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20681898_9017_10000_9-1.png
+[2014-10-20 23:29:33,128]-INFO  (ESM_SN.java:39)|price:808 .00
+
+
+[2014-10-20 23:29:34,128]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21758852_9017_10000_9-1.png
+[2014-10-20 23:29:34,227]-INFO  (ESM_SN.java:39)|price:1699 .00
+
+
+[2014-10-20 23:29:35,228]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19255302_9017_10000_9-1.png
+[2014-10-20 23:29:35,330]-INFO  (ESM_SN.java:39)|price:2199.00
+
+
+[2014-10-20 23:29:36,330]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19737713_9017_10000_9-1.png
+[2014-10-20 23:29:36,471]-INFO  (ESM_SN.java:39)|price:3499 .00
+
+
+[2014-10-20 23:29:37,472]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/21268130_9017_10000_9-1.png
+[2014-10-20 23:29:37,595]-INFO  (ESM_SN.java:39)|price:988 .00
+
+
+[2014-10-20 23:29:38,595]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/21369271_9017_10000_9-1.png
+[2014-10-20 23:29:38,699]-INFO  (ESM_SN.java:39)|price:899 .00
+
+
+[2014-10-20 23:29:39,699]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/17004396_9017_10000_9-1.png
+[2014-10-20 23:29:41,706]-INFO  (ESM_SN.java:39)|price:2399 .00
+
+
+[2014-10-20 23:29:42,706]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/16837721_9017_10000_9-1.png
+[2014-10-20 23:29:42,819]-INFO  (ESM_SN.java:39)|price:229.00
+
+
+[2014-10-20 23:29:43,819]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19790679_9017_10000_9-1.png
+[2014-10-20 23:29:43,929]-INFO  (ESM_SN.java:39)|price:766 .00
+
+
+[2014-10-20 23:29:44,929]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19830761_9017_10000_9-1.png
+[2014-10-20 23:29:45,047]-INFO  (ESM_SN.java:39)|price:2958 .00
+
+
+[2014-10-20 23:29:46,047]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/20545352_9017_10000_9-1.png
+[2014-10-20 23:29:46,152]-INFO  (ESM_SN.java:39)|price:951.00
+
+
+[2014-10-20 23:29:47,152]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/18972602_9017_10000_9-1.png
+[2014-10-20 23:29:47,409]-INFO  (ESM_SN.java:39)|price:1697 .00
+
+
+[2014-10-20 23:29:48,409]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20425059_9017_10000_9-1.png
+[2014-10-20 23:29:48,523]-INFO  (ESM_SN.java:39)|price:439 .00
+
+
+[2014-10-20 23:29:49,523]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/22357076_9017_10000_9-1.png
+[2014-10-20 23:29:49,654]-INFO  (ESM_SN.java:39)|price:2488 .00
+
+
+[2014-10-20 23:29:50,654]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19440351_9017_10000_9-1.png
+[2014-10-20 23:29:50,752]-INFO  (ESM_SN.java:39)|price:653 .00
+
+
+[2014-10-20 23:29:51,752]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/20726263_9017_10000_9-1.png
+[2014-10-20 23:29:51,893]-INFO  (ESM_SN.java:39)|price:669 .00
+
+
+[2014-10-20 23:29:52,895]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19449565_9017_10000_9-1.png
+[2014-10-20 23:29:53,036]-INFO  (ESM_SN.java:39)|price:167 .00
+
+
+[2014-10-20 23:29:54,036]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/22843590_9017_10000_9-1.png
+[2014-10-20 23:29:54,131]-INFO  (ESM_SN.java:39)|price:999 .00
+
+
+[2014-10-20 23:29:55,131]-INFO  (ESM_SN.java:35)|link:http://price2.suning.cn/webapp/wcs/stores/prdprice/19068982_9017_10000_9-1.png
+[2014-10-20 23:29:55,272]-INFO  (ESM_SN.java:39)|price:1388 .00
+
+
+[2014-10-20 23:29:56,272]-INFO  (ESM_SN.java:35)|link:http://price1.suning.cn/webapp/wcs/stores/prdprice/19007689_9017_10000_9-1.png
+[2014-10-20 23:29:56,386]-INFO  (ESM_SN.java:39)|price:1488 .00
+
+
