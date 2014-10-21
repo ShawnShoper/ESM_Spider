@@ -31,4 +31,10 @@ public class ESM_JD extends AbstractESM {
 		}
 	}
 
+	@Override
+	public String hasNextPage(String html) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

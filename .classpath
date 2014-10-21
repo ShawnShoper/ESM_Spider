@@ -42,9 +42,9 @@
 	<classpathentry kind="lib" path="lib/httpcore-4.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/httpmime-4.3.5.jar"/>
 	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="lib/ocr.jar" sourcepath="/Tesseract-OCR"/>
 	<classpathentry kind="lib" path="lib/jai_imageio-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/tesseract-ocr.jar"/>
 	<classpathentry kind="lib" path="lib/swingx-1.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Tesseract-OCR"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

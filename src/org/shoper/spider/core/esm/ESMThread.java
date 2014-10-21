@@ -5,7 +5,7 @@ package org.shoper.spider.core.esm;
  */
 public class ESMThread implements Runnable {
 	private AbstractESM esmThread;
-
+	
 	public void run() {
 		if (null != esmThread){
 			try{
@@ -16,12 +16,4 @@ public class ESMThread implements Runnable {
 		}
 	}
 
-	public AbstractESM getEsmThread() {
-		return esmThread;
-	}
-
-	public void setEsmThread(AbstractESM esmThread) {
-		this.esmThread = esmThread;
-	}
-	
 }

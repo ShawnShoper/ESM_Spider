@@ -11,6 +11,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 
+import javax.management.RuntimeErrorException;
+
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.RedirectException;
@@ -35,10 +37,9 @@ public class HtmlClient {
 	 * 初始化设置
 	 * 
 	 * @author LiuShangYang 2014年6月12日
-	 * @throws FunctionException
-	 * @throws WebpageException
+	 * @throws Exception 
 	 */
-	public HtmlClient(String url) throws FunctionException, WebpageException {
+	public HtmlClient(String url) throws Exception {
 		DefaultHttpParams.getDefaultParams().setParameter(HttpClientParams.MAX_REDIRECTS, 10);// 重定向10次
 		DefaultHttpParams.getDefaultParams().setParameter("http.protocol.cookie-policy", CookiePolicy.BROWSER_COMPATIBILITY);
 		System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.SimpleLog");
@@ -47,12 +48,8 @@ public class HtmlClient {
 
 		this.url = url;
 		client = new HttpClient();
-		try {
-			methodLogin = new GetMethod(EncodeURI.encode(url));
-			html = executeHtml();
-		} catch (UnsupportedEncodingException e) {
-			throw new FunctionException(e);
-		}
+		methodLogin = new GetMethod(EncodeURI.encode(url));
+		html = executeHtml();
 
 	}
 
@@ -78,12 +75,13 @@ public class HtmlClient {
 	 * @param url
 	 * @return
 	 * @author LiuShangYang 2014年6月12日
+	 * @throws Exception 
 	 * @throws WebpageException
 	 *             页面错误，例如页面不存在404
 	 * @throws FunctionException
 	 *             程序异常
 	 */
-	private String executeHtml() throws WebpageException, FunctionException {
+	private String executeHtml() throws Exception {
 
 		// 超时5分钟
 		client.getHttpConnectionManager().getParams().setConnectionTimeout(300000);
@@ -171,15 +169,8 @@ public class HtmlClient {
 					resString = resString.replace(key, map.get(key).toString());
 				return resString.trim();
 			}
-		} catch (RedirectException e) {// 重定向死循环
-			throw new WebpageException(WebpageException.HTTP_REDIRECT);
-		} catch (WebpageException e) {
-			throw e;
 		} catch (Exception e) {
-			throw new FunctionException(e);
-		} catch (Error e) {
-			e.printStackTrace();
-			throw new FunctionException(e);
+			throw new Exception(e);
 		} finally {
 			try {
 				if (is != null)
