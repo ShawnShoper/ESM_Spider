@@ -10,8 +10,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
-import org.hc.tesseract.OCR;
 import org.shoper.http.HtmlClient;
+import org.shoper.util.ocr.OCR;
 
 public class ESM_SN extends AbstractESM {
 	private static Logger LOGGER = Logger.getLogger(ESM_SN.class);
@@ -32,11 +32,6 @@ public class ESM_SN extends AbstractESM {
 	@Override
 	public void process() throws IOException, InterruptedException {
 		LOGGER.info("解析开始....");
-		String[] prices = new String[] {};
-		String[] titles = new String[] {};
-		String[] picUrls = new String[] {};
-		String[] itemUrls = new String[] {};
-		String[] itemIDs = new String[] {};
 		//String url = "http://list.suning.com/0-20006-0-0-0-9017.html#sourceUrl4Sa=http://shouji.suning.com/";
 		StringBuffer sb = new StringBuffer();
 		{
@@ -57,14 +52,20 @@ public class ESM_SN extends AbstractESM {
 			LOGGER.debug("Program over");
 			return;
 		}
+		// 判断是否有下一页
 		/*
 		  FileOutputStream fileOS = new FileOutputStream(new
 		  File("d:\\html.txt")); fileOS.write(sb.toString().getBytes());
 		  fileOS.flush(); fileOS.close();
 		 */
-		// 判断是否有下一页
 		int pageIndex = 0;
 		for (;;) {
+			String[] prices = new String[] {};
+			String[] titles = new String[] {};
+			String[] picUrls = new String[] {};
+			String[] itemUrls = new String[] {};
+			String[] itemIDs = new String[] {};
+			String[] pricePicUrls = new String[]{};
 			FileOutputStream fileOutputStream = new FileOutputStream(new File(
 					"./"+lv1+"."+lv2+".txt"), true);
 			LOGGER.debug("------------Page :" + (pageIndex + 1)
@@ -72,7 +73,7 @@ public class ESM_SN extends AbstractESM {
 			{
 				// 获取产品连接和ID
 				Pattern pattern = Pattern
-						.compile("(?<=class=\"search-bl\"\\s\\shref=')http://product.suning.com/\\d*.html(?='\\s)");
+						.compile("(?<=class=\"search-bl\"\\s\\shref=')http://product.suning.com/[\\d-]*.html(?='\\s)");
 				Matcher matcher = pattern.matcher(sb);
 				List<String> urlList = new ArrayList<>(count);
 				List<String> idList = new ArrayList<>(count);
@@ -113,6 +114,7 @@ public class ESM_SN extends AbstractESM {
 						.compile("(?<=<img class=\"liprice\" src2=\")[\\w:/.-]*(?!=\")");
 				Matcher matcher = pattern.matcher(sb);
 				List<String> priceList = new ArrayList<>(count);
+				List<String> pricePicList = new ArrayList<>(count);
 				while (matcher.find()) {
 					String priceUrl = matcher.group();
 					LOGGER.info("Get product link:" + priceUrl);
@@ -127,22 +129,37 @@ public class ESM_SN extends AbstractESM {
 						} catch (Exception e) {
 							LOGGER.info("wait 5s to continue get next info");
 							LOGGER.info("Get next page error " + (errCount+1)
-									+ " times by " + e.getStackTrace());
-							Thread.sleep(5000);
+									+ " times by " + e.getMessage());
+							LOGGER.info("The reason is suning's Bug...We are fix it cut the last '-0' from url");
+							int index = priceUrl.lastIndexOf("-0");
+							priceUrl = priceUrl.substring(0,index)+priceUrl.substring(index+2, priceUrl.length());
 							errCount++;
-							e.printStackTrace();
+							Thread.sleep(5000);
 						}
 					} while (errCount <= 3);
 					if(p!=null)
 						p = p.replaceAll("[\r\n\\s]", "");
 					priceList.add(p);
+					pricePicList.add(priceUrl);
 					LOGGER.info("Get product price:" + p);
 				}
 				prices = priceList.toArray(prices);
+				pricePicUrls = pricePicList.toArray(pricePicUrls);
+			}
+			{
+				StringBuffer result = new StringBuffer();
+				result.append("\nResult:item_ID count:"+itemIDs.length+"\n");
+				result.append("Result:item_link count:"+itemUrls.length+"\n");
+				result.append("Result:pricePicUrls count:"+pricePicUrls.length+"\n");
+				result.append("Result:item_price count:"+prices.length+"\n");
+				result.append("Result:item_title count:"+titles.length+"\n");
+				result.append("Result:item_picUrl count:"+picUrls.length+"\n");
+				result.append("The" + (pageIndex + 1) + " page Analyzered....");
+				LOGGER.debug(result);
 			}
 			for (int i = 0; i < picUrls.length; i++) {
 				//如果图片没抓出来,那么为null,那么从页面链接里去拿数据
-				if(null == prices[i]){
+				/*if(null == prices[i]){
 					LOGGER.debug("价格为null,说明获取到图片没解析出..那么通过访问商品页来匹配价格");
 					//获取当前图片对应的产品连接
 					try {
@@ -151,22 +168,32 @@ public class ESM_SN extends AbstractESM {
 						Matcher matcher = pattern.matcher(content);
 						
 					} catch (Exception e) {
+						
 						e.printStackTrace();
 					}
-				}
-				String result = "item_ID:" + itemIDs[i] + "\n item_link:"
-						+ itemUrls[i] + "\n item_price:" + prices[i]
+				}*/
+				StringBuffer result = new StringBuffer();
+				result.append("\n--------------------------------------------------\n");
+				result.append("item_ID:"+itemIDs[i]+"\n");
+				result.append("item_link:"+itemUrls[i]+"\n");
+				result.append("pricePicUrls:"+pricePicUrls[i]+"\n");
+				result.append("item_price:"+prices[i]+"\n");
+				result.append("item_title:"+titles[i]+"\n");
+				result.append("item_picUrl:"+picUrls[i]+"\n");
+				
+				/*String result = "item_ID:" + itemIDs[i] + "\n item_link:"
+						+ itemUrls[i] + "\n pricePicUrls:"+pricePicUrls[i]+"\n item_price:" + prices[i]
 						+ "\n item_title:" + titles[i] + "\n item_picUrl:"
-						+ picUrls[i] + "\n";
-				fileOutputStream.write(result.getBytes());
+						+ picUrls[i] + "\n";*/
+				result.append("--------------------------------------------------\n");
+				fileOutputStream.write(result.toString().getBytes());
 				fileOutputStream.write(("-------------------------------"
 						+ (i + 1) + " item-----------------------\n").getBytes());
 				LOGGER.debug(result);
 			}
 			fileOutputStream.flush();
 			fileOutputStream.close();
-			LOGGER.info("The" + (pageIndex + 1) + " page Analyzered....");
-
+			
 			// check has next page
 			LOGGER.info("check has next page");
 			url = hasNextPage(sb.toString());

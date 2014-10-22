@@ -7,7 +7,9 @@ import org.junit.Test;
 import org.shoper.http.HtmlClient;
 
 public class ESM_SN_test {
-	private ESM_SN esm_SN = new ESM_SN("http://list.suning.com/0-20006-0-0-0-9017.html#sourceUrl4Sa=http://www.suning.com/","digital","phone");
+	private ESM_SN esm_SN = new ESM_SN(
+			"http://list.suning.com/0-20006-0-0-0-9017.html#sourceUrl4Sa=http://www.suning.com/",
+			"digital", "phone");
 	private static Logger logger = Logger.getLogger(ESM_SN_test.class);
 
 	@Before
@@ -17,7 +19,7 @@ public class ESM_SN_test {
 
 	@Test
 	public void test_process() throws Exception {
-			esm_SN.process();
+		esm_SN.process();
 	}
 
 	@Test
@@ -37,6 +39,12 @@ public class ESM_SN_test {
 			sb.append(new HtmlClient(url).getHtml());
 			pageIndex++;
 		}
+	}
+
+	@Test
+	public void testCatchHTML() {
+		String Url = "http://list.suning.com/0-20006-0-0-0-9017.html#sourceUrl4Sa=http://www.suning.com/";
+
 	}
 
 	@After

@@ -45,6 +45,5 @@
 	<classpathentry kind="lib" path="lib/jai_imageio-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/tesseract-ocr.jar"/>
 	<classpathentry kind="lib" path="lib/swingx-1.0.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Tesseract-OCR"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
